@@ -15,7 +15,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        User::factory(10)->create();
+        User::factory(4)->create();
 
         DB::table('users')->insert([
             [
