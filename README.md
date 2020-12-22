@@ -25,12 +25,10 @@ $ docker-compose exec app php artisan migrate:refresh --seed
 ## 各種コマンド
 ### 環境立ち上げ
 ```
-$ docker-sync start
 $ docker-compose up
 ```
 
 ### 環境停止
 ```
 $ docker-compose down
-$ docker-sync stop
 ```
