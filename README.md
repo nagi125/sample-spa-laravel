@@ -1,5 +1,5 @@
 ## 概要
-[sample-spa-nuxt](https://github.com/nagi125/sample-spa-nuxt)のBackend
+[sample-spa-nuxt](https://github.com/nagi125/sample-spa-nuxt)のBackend  
 SPAの確認をするための最低限の実装にしてあります。
 
 ## ミドルウェアのバージョン
