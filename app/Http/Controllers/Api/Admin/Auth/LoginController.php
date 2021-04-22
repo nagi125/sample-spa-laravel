@@ -36,6 +36,8 @@ class LoginController extends Controller
      */
     protected function login(Request $request)
     {
+        Log::alert("-------------");
+
         $credentials = $request->validate([
             'email' => 'required|email',
             'password' => 'required'
